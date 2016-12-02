@@ -43,3 +43,5 @@
 [贡献](https://github.com/linkedin/dustjs)
 
 [个人总结](./detail/summary.md)
+
+**注**: Detail文件夹里有`detail-code`和`summary-code`两个文件夹，`detail-code`为文档各个实例的测试代码；`summary-code`为个人总结的实例代码。
