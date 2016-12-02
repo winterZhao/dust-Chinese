@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+    <ul>
+    {#languages}
+        <li>[[ YOUR CODE GOES HERE ]]</li>
+    {/languages}
+    </ul>
+{/data}
+
+<hr/>
+{#expectedData}
+    <ul>
+    {#languages}
+        <li>当前索引为{$idx}&nbsp;;当前项为{.}&nbsp;;总长度为{$len}</li>
+    {/languages}
+    </ul>
+{/expectedData}
+
+
+</body>
+</html>

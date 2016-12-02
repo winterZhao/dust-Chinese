@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+    {! 注释 !}
+    {! 处理JSON数据 !}
+        {name}
+    <br/>
+        {#hobbies}
+            {.}
+        {/hobbies}
+    <br/>
+        {#eat}
+            {.breakfast}
+        {/eat}
+    <br/>
+
+    {! 常用帮助函数 !}
+    {! if条件判断 !}
+        {#girlfriend}
+            他有女朋友这个属性
+        {:else}
+            他没有女朋友这个属性
+        {/girlfriend}
+    <br/>
+        {@eq key=age value=23}他今年23了,{:else}他今年不是23{/eq}
+    <br/>
+        {@gt key=age value=22}他的年龄大于22{:else}他的年龄小于22{/gt}
+    <br/>
+
+    {! for循环 !}
+        {#hobbies}
+            {@first}她喜欢{/first}
+            {@last}和{.}{/last}
+            {@sep}{.}{/sep}
+        {/hobbies}
+
+    {! switch条件 !}
+        {#eat}
+             {@select key=dinner}
+                 {@eq value="八点"}{key}吃早餐{/eq}
+                 {@eq value="十二点"}{key}吃午餐{/eq}
+                 {@eq value="十九点"}{key}吃晚餐{/eq}
+                 {@any}。{/any}
+                 {@none}今天没吃饭{/none}
+             {/select}
+        {/eat}
+
+
+    {! 公共模板的处理 !}
+    {> "views/common.dust"/}
+    {< name}
+        小灰
+    {/name}
+{/data}
+
+</body>
+</html>

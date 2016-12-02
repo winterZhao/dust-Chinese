@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+   <div class="page">
+     <h1>{+pageHeader}LinkedIn{/pageHeader}</h1>
+     <div class="bodyContent">
+       {+bodyContent/}
+     </div>
+     <div class="footer">
+       {+pageFooter}
+          <a href="/contactUs">Contact Us</a>
+       {/pageFooter}
+     </div>
+   </div>
+{/data}
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+    {!
+    Outside of the section, Dust looks for values
+    at the root of the JSON context
+    !}
+    The value of name is: {name}{~n}
+    <hr/>
+    {#extraData}
+        {!
+        Inside this section, Dust looks for
+        values within the extraData object
+        !}
+        Inside the section, the value of name is: {name}{~n}
+    {/extraData}
+    <hr/>
+    The value of name is: {name}, again.{~n}
+    <hr/>
+    {#nonExistentContext}
+        This is only output if "nonExistentContext" exists.
+    {:else}
+        Because "nonExistentContext" does not exist, the else body is output.
+    {/nonExistentContext}
+{/data}
+
+</body>
+</html>

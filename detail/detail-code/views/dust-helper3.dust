@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>helpers_casting</title>
+</head>
+<body>
+
+{#data}
+    {@eq key=bilbosAge value="50" type="number"}Looking nifty at fifty, Bilbo! {/eq}
+    {@gt key=gandalfsAge value="10000"}Gandalf is really old...{/gt}
+{/data}
+
+</body>
+</html>

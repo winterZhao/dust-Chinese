@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{#data}
+   <input type="checkbox"{?isSelected} checked{/isSelected}>
+   {?friends} {friends.length} Friends!{/friends}
+   {?enemies} Oh no, enemies!{/enemies}
+
+
+{/data}
+<hr/>
+{#expectedData}
+   <input type="checkbox"{?isSelected} checked{/isSelected}>
+   {?friends} {friends.length} Friends!{/friends}
+   {?enemies} Oh no, enemies!{/enemies}
+{/expectedData}
+</body>
+</html>

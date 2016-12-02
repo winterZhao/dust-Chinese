@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+    Hello, {name}&nbsp;
+    {#friend}
+        {name}&nbsp;
+        [[ PUT YOUR ANSWER HERE ]]
+    {/friend}.
+    That's my name, too.
+{/data}
+<hr/>
+
+{#expectedData}
+    Hello, {name}&nbsp;
+    {#friend}
+        {name}&nbsp;
+        {nickname}&nbsp;
+        [[ PUT YOUR ANSWER HERE ]]
+    {/friend}.
+    That's my name, too.
+{/expectedData}
+</body>
+</html>

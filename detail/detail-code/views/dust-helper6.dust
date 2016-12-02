@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>helpers_casting</title>
+</head>
+<body>
+
+{#data}
+    <ul>
+        {#flavors}
+            <li
+                {@math key=$idx method="mod" operand="2"}
+                {@eq value="0" type="number"} class="alt"{/eq}
+                {/math}>
+                {name}
+            </li>{~n}
+        {/flavors}
+    </ul>
+{/data}
+
+</body>
+</html>

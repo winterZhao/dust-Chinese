@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+li标签的classname发生改变
+{#data}
+   <li class="result{?isPrimary} primary {:else} secondary{/isPrimary}">
+{/data}
+<hr/>
+{#expectedData}
+   <li class="result{?isPrimary} primary {:else} secondary{/isPrimary}">
+{/expectedData}
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>helpers_casting</title>
+</head>
+<body>
+
+{#data}
+    {#houses.gryffindor}
+        {! Default: key="current" and to="output" !}
+        {@contextDump/}
+        {! Check your console for the full context !}
+        {@contextDump key="full" to="console"/}
+    {/houses.gryffindor}
+{/data}
+
+</body>
+</html>

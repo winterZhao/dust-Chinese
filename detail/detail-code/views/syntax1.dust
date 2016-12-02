@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+    {name} is a valid Dust reference.{~n}
+    <hr/>
+    {0name} is not a valid Dust reference.{~n}
+    <hr/>
+    {.name} is a valid Dust reference.{~n}
+    <hr/>
+    {.} is a valid dust reference.{~n}
+    <hr/>
+    {markup|s}: The |s filter does not escape HTML.{~n}
+    <hr/>
+    {markup}: HTML is escaped by default.
+{/data}
+
+</body>
+</html>

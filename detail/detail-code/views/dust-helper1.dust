@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>helpers_logic</title>
+</head>
+<body>
+
+{#data}
+    {@eq key=level value="master"}You are no longer a Padawan. {/eq}
+    {@gt key=age value=starfighterRentalAge}Rent a Starfighter!{/gt}
+{/data}
+
+</body>
+</html>

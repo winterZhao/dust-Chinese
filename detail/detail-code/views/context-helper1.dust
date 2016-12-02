@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+
+{#appStatusOK}
+  Everything is awesome!
+  {:gearsError}
+    Gears are stopped! Status code: {gears.error}
+  {:engineError}
+    Engine is not running! Engine temperature: {engine.temperature}
+  {:oilLevelError}
+    Oil level is too low! Current level: {engine.oilLevel}
+{/appStatusOK}
+
+{/data}
+
+</body>
+</html>

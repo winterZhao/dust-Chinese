@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{#data}
+    {title}{~n}
+    <hr/>
+    {title|s}{~n}
+    <hr/>
+    {title|js}{~n}
+    <hr/>
+    {title|js|s}
+{/data}
+
+</body>
+</html>

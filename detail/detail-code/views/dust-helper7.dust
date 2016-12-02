@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>helpers_casting</title>
+</head>
+<body>
+
+{#data}
+    There is {@math key=100 method="subtract" operand=progress/}% left to do.
+{/data}
+
+</body>
+</html>

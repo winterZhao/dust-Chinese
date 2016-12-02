@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+{#data}
+    Comments {! in Dust !}can be used for documentation.{~n}
+    <hr/>
+    Comments can also be used {! <button>Click me!</button> !}to test or remove features.
+{/data}
+
+</body>
+</html>
