@@ -16,7 +16,7 @@ Dust关键字只能是一个或多个以下字符:`a-z`,`A-Z`,`_`,`$`,`0-9`或�
 
 #### 注释 `{! comments !}`
 
-Dust注释通常写在文件里，模板渲染的时候回忽略。格式如下：
+Dust注释通常写在文件里，模板渲染的时候会忽略。格式如下：
 
 `{! All Dust comments are multiline comments !}`
 
