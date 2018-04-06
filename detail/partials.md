@@ -2,7 +2,7 @@
 
 通过使用局部模板，模板能包含模板。Dust允许你写自己的内联局部模板作为你模板的一部分，而不是在控制器或者配置文件里指明要包含的模板。
 
-一个模板通过DUst的局部[模板语法](http://www.dustjs.com/docs/syntax/#partial)包含一个局部模板。局部模板的名字就是被用来[渲染模板](http://www.dustjs.com/guides/getting-started/#compiling-dust-templates)的名字。
+一个模板通过Dust的局部[模板语法](http://www.dustjs.com/docs/syntax/#partial)包含一个局部模板。局部模板的名字就是被用来[渲染模板](http://www.dustjs.com/guides/getting-started/#compiling-dust-templates)的名字。
 
 ****** `{>"template-name" /}`
 
