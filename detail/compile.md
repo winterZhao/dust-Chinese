@@ -1,6 +1,6 @@
 ## Compiling and Rendering
 
-在[起步](http://www.dustjs.com/guides/getting-started/)指南中,你学会了如何写Dust模板。现在，让我妈了解如何使用你的模板渲染页面。
+在[起步](http://www.dustjs.com/guides/getting-started/)指南中,你学会了如何写Dust模板。现在，让我们了解如何使用你的模板渲染页面。
 
 ### 编译，加载和渲染(Compile,Load,and Render)
 
